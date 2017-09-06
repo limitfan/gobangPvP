@@ -207,9 +207,9 @@ $("#fail").click(function() {
 $("#back").click(function() {
   b.back();
 });
-
-Parse.initialize("baasone");
-Parse.serverURL = 'https://baasone.herokuapp.com/parse/';
+//Replace parse server parameters for your need.
+Parse.initialize("YOUR_PARSE_APPLICATION_ID_HERE");
+Parse.serverURL = 'YOUR_PARSE_SERVER_LOCATION';
 var date;
 date=new Date();
 console.log(date);
